@@ -786,18 +786,7 @@ section {
 
 .about .about-page-img{
   float: right;
-  width: 630px;
-  height: 330px;
-  margin-left: 30px;
-  margin-bottom: 30px;
-}
-
-@media (max-width: 768px){
-  .about .about-page-img{
-    margin-left: 0;
-    width: 320px;
-    height: 200px;
-  }
+  margin-left: 20px;
 }
 
 .about p {
