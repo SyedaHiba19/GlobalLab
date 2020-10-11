@@ -532,7 +532,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .carousel .carousel-fade .carousel-item{
-   transition: opacity ease-out 1s;
+   transition: opacity ease-out 0.7s;
 }
 
 #hero .carousel.carousel-fade .carousel-item.active {
@@ -762,8 +762,8 @@ section {
   color: #848484;
 }
 
-.why-us .carousel .carousel-fade{
-  transition: opacity ease-out 2.7s;
+#mySlideShow .carousel .carousel-fade .carousel-item{
+  transition: opacity ease-out 120s;
 }
 
 .why-us .carousel.carousel-fade .carousel-item.active {
