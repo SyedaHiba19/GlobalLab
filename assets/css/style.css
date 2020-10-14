@@ -706,6 +706,15 @@ section {
   text-align: left;
 }
 
+.about h4{
+  font-size: 22px;
+  font-weight: bold;
+  padding-bottom: 5px;
+  position: relative;
+  color: #2c4964;
+  text-align: left;
+}
+
 .about .about-page-img{
   float: right;
   margin-left: 20px;
@@ -1227,6 +1236,28 @@ section {
 }
 /*-----------------------------------------------------------*/
 
+
+/*--------------------------------------------------------------
+# Gallery
+--------------------------------------------------------------*/
+#gallery{
+  margin-top: 90px;
+}
+
+.gallery .gallery-item {
+  overflow: hidden;
+  border-right: 3px solid #fff;
+  border-bottom: 3px solid #fff;
+}
+
+.gallery .gallery-item img {
+  transition: all ease-in-out 0.4s;
+}
+
+.gallery .gallery-item:hover img {
+  transform: scale(1.1);
+}
+/*---------------------------------------------------------------*/
 
 
 /*--------------------------------------------------------------
