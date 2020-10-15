@@ -720,6 +720,11 @@ section {
   margin-left: 20px;
 }
 
+.about .section-title p{
+  color: #444444;
+  margin-bottom: 30px;
+}
+
 .about p {
   color: #848484;
 }
